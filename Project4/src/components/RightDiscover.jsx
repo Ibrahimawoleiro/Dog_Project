@@ -10,10 +10,8 @@ const RightDiscover = (props) => {
             <h1 className="bold"> Fallin' on Dogs</h1>
             <p className="bold">Discover Dogs from around the world</p>
             <p>🐩🐕🐕🐶🦮🐶🦮🐕‍🦺🐩</p>
-            {props.image ?
-                (<img src={props.image}>
-                </img>) : (<div></div>)
-            }
+            <div className="buttonContainer"></div>
+            <div className="curr"></div>
             <button className="button" onClick={props.onSubmit}>Discover!!!</button>
         </div>
     )

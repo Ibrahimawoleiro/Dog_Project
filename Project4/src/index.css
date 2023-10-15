@@ -8,14 +8,12 @@
 .App{
   display: flex;
   width: 100%;
-  border: 4px solid yellow;
   height: 100vh;
  
 }
 
 .Discover{
   width: 80%;
-  border: 2px solid red;
   text-transform: uppercase;
   background-image: url(./Photos/group-portrait-of-adorable-puppies-royalty-free-image-1687451786.jpg);
   background-position: center;
@@ -30,8 +28,6 @@
 
 .Ban{
   width: 20%;
-  border: 2px solid blue;
-
   text-align: center;
   overflow: scroll;
   background-color: #d2d2d2;
@@ -50,26 +46,74 @@
 .leftDiscover{
   height: 90%;
   width: 20%;
-  border: 5px solid green;
   overflow: scroll;
   position: relative;
   background-color: black;
   opacity: 0.8;
- 
+ overflow: hidden;
 }
 
 .bold{
   padding: 30px;
-  border: 2px solid pink;
   font-weight: bold;
 }
 
 .button{
   position: absolute;
   top:90%;
-  left: 45%;
+  left: 41%;
   height: 30px;
   width: 100px;
   border-radius: 30px;
   font-size: large;
+}
+.pastChildrenHolder{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 440px;
+  overflow: scroll;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.prevImages{
+  width: 100%;
+  height: 200px;
+  display: block;
+  opacity: 1;
+}
+
+.curr{
+  width: 300px;
+  height: 700px;
+  position: relative;
+  left: 30%;
+  top:30px
+}
+
+.names{
+  padding:20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.buttonz{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 15px 30px;
+  font-weight: 900;
+
+}
+.buttonz:hover,.button:hover{
+  background-color: brown;
+}
+
+.pastHolder{
+  display: flex;
+  flex-flow: column;
+  width:100%;
+  align-items: center;
+  justify-content: center;
 }
